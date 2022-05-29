@@ -1,0 +1,127 @@
+
+    {"intents": [
+
+        {
+            "tag": "Brands",
+            "patterns": [
+                "car company",
+                "car manufacturers",
+                "car brands",
+                "automotive companies"
+                
+            ],
+            "responses": [
+                "Tata,Datsun,Renault,Maruti Suzuki,Datsun,Hyundai,Toyota,Nissan,Ford"],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "model",
+            "patterns": [
+            "Available Models of TATA",
+            "TATA Models"],
+            "responses": [
+                "Nano Genx ,Tiago ,Bolt,Altroz,Tigor,Zest,Nexon,Hexa,Harrier,Winger"
+              
+],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "EV model",
+            "patterns": [
+            "Available EV Models of AUDI","AUDI Models in Electric vehicles"],
+            "responses": [
+                "A3,A7,A8 E,E-TRON,E-TRON GT,E-TRON SPORTBACK,Q5,Q5 E,RS E-TRON GT"
+              
+],
+            "context": [
+                "" ]
+},
+
+        {
+            "tag": "EV model1",
+            "patterns": [
+            "Available EV Models of AZURE DYNAMICS","AZURE DYNAMICS Models in Electric vehicles"],
+            "responses": ["TRANSIT CONNECT ELECTRIC"],
+            "context": [
+                ""
+            ]
+        },
+
+{
+            "tag": "EV model2",
+            "patterns": ["Available EV Models of BENTLEY","BENTLEY Models in "],
+            "responses": ["BENTAYGA"],
+           "context":[ ""]
+},
+ {
+            "tag": "Fuel_cng",
+            "patterns": [
+                "Available CNG cars",
+                "CNG cars"
+               
+            ],
+            "responses": [
+                "Nano Genx,Eeco,Hyundai Santro,Maruti Suzuki Wagon R,Maruti Suzuki Alto,Maruti SuzukiS-Presso,Maruti Suzuki Ertiga "],
+            "context":[""]
+        },
+{
+            "tag": "EV manufacturers",
+            "patterns": ["Electric vehicle companies","Electric vehicle manufacturers","EV companies"],
+            "responses": ["Audi,Azure Dynamics,Bentley,BMW,Cadillac,Chevrolet,Chrysler,Doge,Fiat,Fisker,Ford,Honda,Hyundai,Jaguar,Jeep,Kia,Land Rover,Lincoln,LuciMotors,MercedesBenz,Mini,Mitsubishi,Nissan,Polestar,Porsche,Rivian,Smart,Subaru,Tesla,Th!nk,Toyota,Volkswagen,Volvo,Wheego"],
+            "context": [
+                ""]
+        },
+   {
+            "tag": "Fuel_petrol",
+            "patterns": ["Petrol cars"],
+            "responses": ["TATA Nano Genx,Maruti Swift,Tata Tiago,Maruti Dzire,Hyundai Santro,Maruti Baleno,Redi-Go,Kwid,Eeco,MG Hector,Hyundai Creta,Tata Nexon"]},
+{"tag":"ev_model" ,"patterns": [" NISSAN"],"responses": ["LEAF"],"context": [""]},
+{"tag":"ev_model2", "patterns": [" VOLKSWAGEN"], "responses": ["E-GOLF,ID.4"], "context": [""]},
+{"tag":"ev_model3", "patterns": [" TESLA"], "responses": ["MODEL 3,MODEL Y,MODEL X,MODEL S,ROADSTER"],"context":[""]},
+{"tag":"ev_model", "patterns": [" CHEVROLET"], "responses": ["BOLT EV, VOLT,SPARK"]},
+{"tag":"ev_model", "patterns": [" KIA"], "responses": ["NIRO, OPTIMA, SOUL, SORENTO, EV6, NIRO PLUG-IN HYBRID, NIRO ELECTRIC, SOUL EV, OPTIMA PLUG-IN HYBRID"]}, 
+{"tag": "ev_model", "patterns": [" TOYOTA"], "responses": ["PRIUS PRIME, PRIUS PLUG-IN, RAV4 PRIME, RAV4, PRIUS PLUG-IN HYBRID"]}, 
+{"tag": "ev_model", "patterns": [" FORD"], "responses": ["FOCUS,F-150, C-MAX, ESCAPE, FUSION, MACH-E, RANGER, TRANSIT"]}, 
+{"tag": "ev_model", "patterns": [" CHRYSLER"], "responses": ["PACIFICA"]},
+ {"tag": "ev_model", "patterns": ["AUDI"], "responses": ["E-TRON, A3, Q5 E, Q5, E-TRON GT, E-TRON SPORTBACK, RS E-TRON GT, A7, A8 E"]}, 
+{"tag": "ev_model", "patterns": ["MITSUBISHI"], "responses": ["OUTLANDER, I-MIEV"]}, 
+{"tag": "ev_model", "patterns": ["HYUNDAI"], "responses": ["IONIQ, KONA, SONATA PLUG-IN HYBRID, KONA ELECTRIC, IONIQ 5, SONATA, SANTA FE, TUCSON"]}, 
+{"tag": "ev_model", "patterns": ["FIAT "], "responses": [""]},
+ {"tag": "ev_model", "patterns": [" JEEP"], "responses": ["WRANGLER"]},
+ {"tag": "ev_model", "patterns": [" SMART" ], "responses": ["FORTWO, FORTWO ELECTRIC DRIVE,EQ FORTWO"]}, 
+{"tag": "ev_model", "patterns": ["VOLVO"], "responses": ["XC60,XC40,XC90,C40,V60,S90,S60,XC90 AWDPHEV"]},
+{"tag": "ev_model", "patterns": ["PORSCHE" ], "responses": ["TAYCAN, CAYENNE,PANAMERA,918 SPYDER"]},
+ {"tag": "ev_model", "patterns": ["CADILLAC"], "responses": ["ELR,CT6"]}, 
+{"tag": "ev_model", "patterns": ["JAGUAR"], "responses": ["I-PACE"]}, 
+{"tag": "ev_model", "patterns": [" HONDA"], "responses": ["CLARITY,ACCORD"]}, 
+{"tag": "ev_model", "patterns": ["MERCEDES-BENZ"], "responses": ["GLC-CLASS,GLE-CLASS,C-CLASS,B-CLASS,EQS-CLASS,S-CLASS"]}, 
+{"tag": "ev_model", "patterns": [" MINI"], "responses": ["HARDTOP,COUNTRYMAN"]},
+ {"tag": "ev_model", "patterns": ["LUCID MOTORS"], "responses": ["LUCID AIR"]}, 
+{"tag": "ev_model", "patterns": [" POLESTAR"], "responses": ["PS2"]},
+ {"tag": "ev_model", "patterns": [" RIVIAN"], "responses": ["R1T,EDV"]}, 
+{"tag": "ev_model", "patterns": [" FISKER"], "responses": ["KARMA"]},
+ {"tag": "ev_model", "patterns": [" LINCOLN"], "responses": ["CORSAIR, AVIATOR"]},
+ {"tag": "ev_model", "patterns": [" LAND ROVER"], "responses": ["RANGE ROVER SPORT, RANGE ROVER"]}, 
+{"tag": "ev_model", "patterns": ["SUBARU"], "responses": ["CROSSTREK HYBRID AWD"]}, 
+{"tag": "ev_model", "patterns": ["AZURE DYNAMICS"], "responses": ["TRANSIT CONNECT ELECTRIC"]},
+ {"tag": "ev_model", "patterns": [" WHEEGO ELECTRIC CARS"], "responses": ["LIFE"]}, 
+{"tag": "ev_model", "patterns": ["TH!NK"], "responses": ["CITY"]},
+ {"tag": "ev_model", "patterns": ["BENTLEY" ], "responses": ["BENTAYGA"]}, 
+{"tag": "ev_model", "patterns": ["DODGE"], "responses": ["CARAVAN"]},
+ 
+{"tag": "Model_price","patterns":["Cars between 5 lakhs to 10 lakhs"],"responses":["Tata Nexon,Maruti Celerio,Tata Tiago,Maruti Suzuki Baleno,Maruti Suzuki Dzire"]},
+ {"tag": "Best Milege", "patterns": ["Car Mileage", "Preffered city cars"],"responses": ["Maruti Celerio,Hyundai Aura,Tata Altroz,Honda Amaze"],"context": [""]},  
+ {"tag": "Fuel tank capacity", "patterns": ["Car with maximum fuel tank capacity", "max fuel tank capacity"],"responses": ["Land Rover Rover Range Sport-105 lt"],"context": [""]},    
+  {"tag": "Fuel tank capacity", "patterns": ["Car with minimum fuel tank capacity", "min fuel tank capacity"],"responses": ["Tata Nano Genx-15 lt"],"context": [""]}, 
+  {"tag": "SUV Cars", "patterns": ["Best SUV cars"],"responses": ["Maruti Suzuki Vitara Brezza,Hyundai Creta,Kia Seltos,Mahindra XUV300 "],"context": [""]}, 
+   {"tag": "Safe cars", "patterns": ["Most safe cars","safest car brands"],"responses": [" Mercedes Benz, Nissan Rogue,Toyota Corolla, Acura TLX,BMW "],"context": [""]},          
+      {"tag": "Car specifications", "patterns": ["common car specifications to consider",""],"responses": [" Body shape,Dimensions and weight,Engine type,Transmission,Comfort and safety"],"context": [""]}
+   
+    ]
+
+}
